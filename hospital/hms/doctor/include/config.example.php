@@ -1,0 +1,12 @@
+<?php
+define('DB_SERVER', 'localhost');
+define('DB_USER', 'your_mysql_username');
+define('DB_PASS', 'your_mysql_password');
+define('DB_NAME', 'hms');
+
+$con = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+?>

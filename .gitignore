@@ -1,0 +1,25 @@
+# Local database configuration
+**/config.php
+
+# Backup files
+*.backup
+*.bak
+
+# Environment / secrets
+.env
+.env.*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Sass cache
+.sass-cache/
+**/.sass-cache/
+
+# Logs
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
